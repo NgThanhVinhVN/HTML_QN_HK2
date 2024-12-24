@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.header {
+    background-color: #a0522d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f4a460;
+    padding: 10px 0;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.banner {
+    background: url('../image/banner.png') no-repeat center center;
+    background-size: cover;
+    height: 250px;
+}
+
+.leaf-divider {
+    background: url('leaf_divider.png') no-repeat center center;
+    background-size: cover;
+    height: 40px;
+}
+
+.main-content {
+    display: flex;
+    margin: 20px;
+    border: 2px solid #a0522d;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.form-section {
+    flex: 2;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.form-section h2 {
+    color: #a0522d;
+}
+
+.form-section p {
+    color: #555;
+}
+
+.form-section form {
+    margin-top: 20px;
+}
+
+.form-section input[type="text"],
+.form-section input[type="email"],
+.form-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-section button {
+    background-color: #a0522d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-section button:hover {
+    background-color: #8b4513;
+}
+
+.links-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.links-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links-section ul li {
+    margin: 10px 0;
+}
+
+.links-section ul li a {
+    text-decoration: none;
+    color: #a0522d;
+}
+
+.more-info {
+    margin-top: 20px;
+}
+
+.more-info img {
+    width: 30%;
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+    font-size: 200px;
+    color: #888;
+    padding: 50px 0;
+    border-top: 1px solid #ddd;
+    background: url('../image/hinh4.png') no-repeat center center;
+    background-size: contain;
+}
